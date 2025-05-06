@@ -86,8 +86,3 @@ This project is Open Source
 Don’t miss this chance to learn, connect, and grow as a developer. See you at the Dev Fest!
 
 ```
-
----
-
-Let me know if you'd like me to include a `.gitignore`, deployment instructions, or a live demo badge.
-```
