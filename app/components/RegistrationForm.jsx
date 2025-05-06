@@ -24,7 +24,7 @@ export default function RegistrationForm() {
     try {
       await fetch("https://script.google.com/macros/s/AKfycbyy-nv6M99QUGk1im-cR8Mo0P7uIX_e3hNH3XjjyDSkhrJ9d_EvEMI8Md60zjd9ZKK5bg/exec", {
         method: "POST",
-        mode: "no-cors",
+        mode: "no-cors", // This will prevent you from handling the response
         headers: {
           "Content-Type": "application/json",
         },
@@ -71,6 +71,7 @@ export default function RegistrationForm() {
                   value={formData[field]}
                   onChange={handleChange}
                   required
+                  aria-label={field.charAt(0).toUpperCase() + field.slice(1)}
                   className="w-full border border-gray-300 px-4 py-2 rounded"
                 />
               ))}

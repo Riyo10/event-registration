@@ -1,7 +1,6 @@
 import { FaCalendarAlt, FaClock, FaLocationArrow, FaUserTie } from "react-icons/fa"; // Event-related icons
 import { FaTwitter, FaInstagram, FaLinkedin } from "react-icons/fa";
 
-
 export default function EventDetails() {
     return (
         <section className="max-w-3xl mx-auto my-8 px-4">
@@ -70,7 +69,6 @@ export default function EventDetails() {
                     </li>
                 </ul>
             </div>
-
 
             {/* Call to Action */}
             <div className="text-center">
